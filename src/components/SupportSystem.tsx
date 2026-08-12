@@ -216,6 +216,40 @@ export default function SupportSystem({ onNavigate }: SupportSystemProps) {
             </div>
           </div>
 
+          {/* DEVELOPER CREDENTIALS & HOTLINE CARD */}
+          <div className="bg-gradient-to-br from-amber-500/10 to-amber-500/5 rounded-3xl p-5 border border-amber-500/20 space-y-3.5">
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 rounded-xl bg-amber-500 text-white flex items-center justify-center font-bold text-sm">🛠️</div>
+              <div>
+                <h4 className="font-extrabold text-xs text-gray-900 uppercase tracking-tight">Lead Developer escalation</h4>
+                <p className="text-[10px] text-amber-800 font-bold">Direct Contact & Tech Support</p>
+              </div>
+            </div>
+            
+            <p className="text-[11px] text-gray-600 font-semibold leading-relaxed">
+              If you discover application bugs, require platform customization, or face critical payment issues, reach out directly to our Lead Developer:
+            </p>
+
+            <div className="space-y-2 pt-1 border-t border-amber-500/10">
+              <div className="flex justify-between items-center text-xs">
+                <span className="text-[10px] text-gray-400 font-bold uppercase">Name</span>
+                <span className="font-black text-gray-800">Khalid Ashraf</span>
+              </div>
+              <div className="flex justify-between items-center text-xs">
+                <span className="text-[10px] text-gray-400 font-bold uppercase">Phone/WhatsApp</span>
+                <a href="tel:+916006751438" className="font-black text-amber-600 hover:underline">+91 6006751438</a>
+              </div>
+              <div className="flex justify-between items-center text-xs">
+                <span className="text-[10px] text-gray-400 font-bold uppercase">WhatsApp Link</span>
+                <a href="https://wa.me/916006751438" target="_blank" rel="noopener noreferrer" className="font-bold text-emerald-600 hover:underline">Chat on WhatsApp</a>
+              </div>
+              <div className="flex justify-between items-center text-xs">
+                <span className="text-[10px] text-gray-400 font-bold uppercase">Direct Email</span>
+                <a href="mailto:khalidashraf105@gmail.com" className="font-black text-gray-800 hover:underline">khalidashraf105@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         {/* Right Side: Detailed Chats & Conversation (Column Span 7) */}

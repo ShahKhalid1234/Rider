@@ -307,7 +307,19 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
             </button>
           </div>
           <div className="pt-12 text-xs text-gray-600 border-t border-gray-900 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <span>© 2026 ScootyRide. All rights reserved. Built for high-speed local transit.</span>
+            <div className="text-left space-y-1">
+              <span>© 2026 ScootyRide. All rights reserved. Built for high-speed local transit.</span>
+              <div className="text-[11px] text-gray-500 pt-1.5 flex flex-wrap items-center gap-2">
+                <span className="font-extrabold text-amber-500 uppercase tracking-wider">🛠️ Lead Developer:</span>
+                <span className="font-black text-gray-300">Khalid Ashraf</span>
+                <span className="text-gray-700">|</span>
+                <a href="tel:+916006751438" className="hover:text-amber-400 transition font-bold">📞 +91 6006751438</a>
+                <span className="text-gray-700">|</span>
+                <a href="https://wa.me/916006751438" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition font-bold">💬 WhatsApp</a>
+                <span className="text-gray-700">|</span>
+                <a href="mailto:khalidashraf105@gmail.com" className="hover:text-amber-400 transition font-bold">✉️ khalidashraf105@gmail.com</a>
+              </div>
+            </div>
             <div className="flex space-x-6">
               <span className="hover:text-gray-300 cursor-pointer" onClick={() => onNavigate('/privacy')}>Privacy Policy</span>
               <span className="hover:text-gray-300 cursor-pointer" onClick={() => onNavigate('/terms')}>Terms & Conditions</span>
