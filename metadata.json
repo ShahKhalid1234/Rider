@@ -1,0 +1,6 @@
+{
+  "name": "ScootyRide",
+  "description": "Hyperlocal scooty rider booking web application. Short rides. Quick pickups. Local freedom.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
